@@ -1,9 +1,15 @@
 body {
   color:rgb(9, 92, 170);
+  text-align: center;
+}
+
+h3 {
+  text-align: left;
 }
 div {
   width: 300px;
   float: left;
+  text-align: left;
 }
 
 img {

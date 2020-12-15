@@ -3,14 +3,14 @@ body {
   text-align: center;
 }
 
+div {
+  text-align: left;
+}
+
 h3 {
   text-align: left;
 }
-div {
-  width: 300px;
-  float: left;
-  text-align: left;
-}
+
 
 img {
   margin: auto;
@@ -54,3 +54,31 @@ img {
 .low-maintenance a {
   font-weight: bolder;
 }
+
+@media screen and (max-width: 480px) {
+  body {
+    background-color: black;
+  }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 700px) {
+  div {
+    width: 300px;
+    float: left;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  div {
+    width: 400px;
+    float: left;
+  }
+
+  img {
+    margin: auto;
+  width: 375px;
+  height: auto;
+  display: block;
+  }
+}
+

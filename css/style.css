@@ -1,0 +1,45 @@
+div {
+  width: 300px;
+  float: left;
+}
+
+img {
+  width: 275px;
+  height: auto;
+}
+
+.pig-and-duck {
+  background-color: rgb(247, 193, 187);
+}
+
+.parakeet {
+  background-color: salmon;
+}
+
+.low-maintenance {
+  background-color: rgb(250, 67, 46);
+}
+
+.pig-and-duck h3 {
+  color: rgb(14, 248, 229);
+}
+
+.parakeet h3 {
+  color: rgb(5, 128, 117);
+}
+
+.low-maintenance h3 {
+  color: rgb(2, 53, 49);
+}
+
+.pig-and-duck a {
+  font-weight: lighter;
+}
+
+.parakeet a {
+  font-weight: bold;
+}
+
+.low-maintenance a {
+  font-weight: bolder;
+}

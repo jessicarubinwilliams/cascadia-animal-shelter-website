@@ -1,11 +1,16 @@
+body {
+  color:rgb(9, 92, 170);
+}
 div {
   width: 300px;
   float: left;
 }
 
 img {
+  margin: auto;
   width: 275px;
   height: auto;
+  display: block;
 }
 
 .pig-and-duck {
